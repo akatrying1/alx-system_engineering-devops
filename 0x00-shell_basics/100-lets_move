@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -al /tmp/u
+find . -name "*[A-Z]*" -exec mv {} /tmp/u \;
+

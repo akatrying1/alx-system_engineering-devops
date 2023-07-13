@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al 
+find . -name "*.html" -newer  f | xargs -I {} cp {} ../
